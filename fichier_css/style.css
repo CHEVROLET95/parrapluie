@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {font-family: sans-serif;
+    background-image: url(/dossier_image/im-arriere1.jpg);
+    font-size: medium;
+    color: white  ;
+    
+}
+
+
+
+a{text-decoration: none;}
+
+/**********entete************/
+
+.tete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #0a2b19;
+    
+}
+
+.logo, .tete ul li a { color: white;}
+
+.tete ul {
+    display: flex;
+    align-items:center;
+    list-style: none;
+}
+
+.tete ul li a{
+    padding: 12px;
+    margin: 0 6px;
+}
+
+.tete ul li a:hover{
+    color: aqua;
+}
+
+/*******corps******/
+
+p{
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+h3{ 
+    padding-top: 20px;}
+
+
+
+
+
+
